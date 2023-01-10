@@ -1,0 +1,17 @@
+*{
+    margin: 0;padding: 0;
+  }
+  .app{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color:rgb(222, 233, 234);
+  }
+  .app_body{
+    display: flex;
+    height: 95vh;
+    width: 80vw;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+  }

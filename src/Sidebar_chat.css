@@ -1,0 +1,23 @@
+.sidebar_chat{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 8vh;
+}
+a{
+    text-decoration: none !important;
+    color: black;
+}
+.sidebar_chat:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.vertical{
+    margin-left:10px ;
+    /* font-size: small; */
+}
+.deleteicon{
+    margin-left: auto;
+}

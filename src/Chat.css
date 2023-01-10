@@ -1,0 +1,89 @@
+.chat{
+    display:flex;
+    width: 70%;
+    flex-direction: column;
+
+}
+.chat_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 10vh;
+    box-sizing: border-box;
+}
+.chat_headerInfo{
+    flex:1;
+    padding-left: 20px;
+}
+.chat_body{
+    background-image: url("/public/whatsapp_bci.png");
+    background-repeat: repeat;
+    /* padding: 30px; */
+    flex: 1;
+    overflow: scroll;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    /* min-height: 83vh; */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.chat_body::-webkit-scrollbar{
+    display: none;
+}
+
+.chat_message{
+    position: relative;
+    font-size: 16px;
+    padding :10px;
+    width:fit-content;
+    font-weight:500;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.chat_name{
+    position:absolute;
+    top: 0px;
+    font-size: x-small;
+    font-weight: 200;
+}
+.chat_time{
+    margin-left: 10px;
+    font-size: xx-small;
+    font-weight: 200;
+}
+.chat_receiver{
+    background-color: rgb(225, 175, 175);
+    margin-left: auto;
+} 
+.chat_footer{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 7vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2px;
+}
+.chat_footer > form{
+    padding: 5px;
+    flex:1;
+    display: flex;
+}
+.chat_footer >form>input{
+    flex: 1;
+    border-radius: 30px ;
+    height:5vh;
+
+}
+.chat_footer > form>button{
+    display: none;
+}
+
+
+
+

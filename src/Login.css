@@ -1,0 +1,30 @@
+.login{
+    background-color:white ;
+    height: 100vh;
+    width: 100vw;
+    display:grid;
+    place-items: center;
+} 
+.login_container{
+    border: 1px solid black;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0, 0, .12),0,1px;
+}
+img{
+    /* background-image: url(https://previews.123rf.com/images/jemastock/jemastock1811/jemastock181103229/111468932-friends-young-people-faces-group-cartoon-vector-illustration-graphic-design.jpg); */
+    object-fit: contain;
+    height:250px
+}
+button{
+    height: 40px;
+    margin: 20px;
+    background-color:rgb(162, 151, 64);
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: rgb(162, 151, 64) ;
+    cursor: pointer;
+}
